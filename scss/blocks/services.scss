@@ -1,0 +1,46 @@
+.services__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services__list li {
+  padding-bottom: 11px;
+  width: 50%;
+
+  transition: 0.5s;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $primary;
+  }
+}
+
+.services__img {
+  margin: 30px 0 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .services__title {
+    margin: 0;
+    padding: 90px 0 30px;
+  }
+
+  .services__list{
+    padding-top: 10px;
+  }
+
+  .services__list li {
+    padding: 0 0 22px 20%;
+  }
+
+  .services__img {
+    margin-top: 115px;
+  }
+}

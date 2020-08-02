@@ -1,0 +1,15 @@
+$body-bg: #E5E5E5;
+
+$font-family-base: 'Fira Sans', sans-serif;
+$font-size-base: 1.1rem;
+
+$theme-colors: (
+  "primary": #4737FF,
+  "danger": #ff4136
+);
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+@import "../node_modules/bootstrap/scss/grid";

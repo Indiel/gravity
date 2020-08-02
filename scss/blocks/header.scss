@@ -1,0 +1,53 @@
+.header__row {
+  height: 75px;
+  align-items: center;
+}
+
+.header__search {
+  padding-left: 6%;
+  display: flex;
+  justify-content: center;
+}
+
+.header__search svg {
+  cursor: pointer;
+
+  & path {
+    transition: 0.5s;
+  }
+
+  &:hover path,
+  &:focus path {
+    fill: $primary;
+  }
+}
+
+.header__menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__menu svg {
+  cursor: pointer;
+
+  & rect {
+    transition: 0.5s;
+  }
+
+  &:hover rect,
+  &:focus rect {
+    fill: $primary;
+  }
+}
+
+@media (min-width: 576px) {
+  .header__row {
+    height: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__row {
+    height: 142px;
+  }
+}
